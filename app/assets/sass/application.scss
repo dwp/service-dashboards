@@ -36,19 +36,19 @@ html {
   background: #fff;
 }
 
-#dashboard #content {
+.dashboard #content {
   max-width: 100%;
   padding: 0 30px;
 }
 
-#dashboard h1.heading-xlarge, #dashboard .markdown h1, .markdown #dashboard h1 {
+.dashboard h1.heading-xlarge, #dashboard .markdown h1, .markdown #dashboard h1 {
   float: left;
   margin: 10px 0 10px;
   padding-top: 10px;
   width: auto;
 }
 
-#dashboard .heading-small, #dashboard .markdown h4, .markdown #dashboard h4, #dashboard .markdown h5, .markdown #dashboard h5, #dashboard .markdown h6, .markdown #dashboard h6 {
+.dashboard .heading-small, #dashboard .markdown h4, .markdown #dashboard h4, #dashboard .markdown h5, .markdown #dashboard h5, #dashboard .markdown h6, .markdown #dashboard h6 {
   font-weight: normal;
   margin-left: 5px;
 }
