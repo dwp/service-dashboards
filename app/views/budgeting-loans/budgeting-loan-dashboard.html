@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+{% block body_classes %}dashboard{% endblock %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+    <h1 class="heading-xlarge">Budgeting Loans</h1>
+    <p class="dashboard-date">XXXXXXXXX</p>
+
+    <div class="grid-row">
+      <div class="column-one-third">
+        <h2 class="heading-medium heading-tile">PIP1 Completions</h2>
+        <div id="completion-pip-1" class="stats">
+        <h3 class="heading-xlarge">57% <span class="heading-small"> completed</span></h3><p><span class="decrease"></span>-23.60% decrease</p></div>
+      </div>
+
+      <div class="column-one-third">
+        <h2 class="heading-medium heading-tile">PIP2 Completions</h2>
+        <div id="completion-pip-2" class="stats">
+        <h3 class="heading-xlarge">50% <span class="heading-small"> completed</span></h3><p><span class="decrease"></span>-18.63% decrease</p></div>
+      </div>
+
+      <div class="column-one-third">
+        <h2 class="heading-medium heading-tile">Sessions to Complete</h2>
+        <div id="sessions-to-complete" class="stats">
+        <h3 class="heading-xlarge">1.68</h3><p>(-0.21)<span class="decrease"></span>-10.93% decrease</p></div>
+      </div>
+    </div>
+
+    <div class="grid-row">
+      <div class="column-one-third">
+        <h2 class="heading-medium heading-tile">PIP1 time to complete</h2>
+        <div id="time-to-complete-pip-1" class="stats">
+        <h3 class="heading-xlarge"> 9m 3s</h3><p><span class="decrease"></span>32s decrease</p></div>
+      </div>
+      <div class="column-one-third">
+        <h2 class="heading-medium heading-tile">PIP2 time to complete</h2>
+        <div id="time-to-complete-pip-2" class="stats">
+        <h3 class="heading-xlarge">1h 41m 21s</h3><p><span class="decrease"></span>3m 32s decrease</p></div>
+      </div>
+      <div class="column-one-third">
+        <h2 class="heading-medium heading-tile">Total time to complete</h2>
+        <div id="total-time-to-complete" class="stats">
+        <h3 class="heading-xlarge">1h 55m 5s</h3><p><span class="decrease"></span>6m 25s decrease</p></div>
+      </div>
+    </div>
+
+</main>
+
+{% endblock %}
+
+
