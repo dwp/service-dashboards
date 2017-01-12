@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 
 {% block page_title %}
-  GOV.UK prototype kit
+  Service dashboards
 {% endblock %}
 
 {% block content %}
@@ -10,30 +10,18 @@
   <div class="grid-row">
     <div class="column-two-thirds">
 
-      <h1 class="heading-xlarge">
-        The GOV.UK prototype kit
-        <span class="heading-secondary">{{releaseVersion}}</span>
-      </h1>{{releaseVersion | log }}
-      <p>
-        This kit lets you rapidly create HTML prototypes of GOV.UK services.
-      </p>
+      <h1 class="heading-xlarge">Service dashboards</h1>
+
+       <h2 class="heading-medium">Prototypes</h2>
 
       <p>
-        It contains all you need to prototype anything from simple static pages to complex, data-driven transactions.
+        Service dashboard examples&colon;
       </p>
 
-      <h2 class="heading-medium">About this page</h2>
+      <ul class="bullet list-bullet">
+      	<li><a href="/budgeting-loans/budgeting-loan-dashboard">Budegting Loans dashboard</a></li>
+      	<li><a href="/budgeting-loans/budgeting-loan-tv-dashboard">Budgeting Loans TV dashboard</a></li>
 
-      <p>We recommend you add links to your prototype to this page, rather than delete it.
-        You'll find this page in the kit at '/app/views/index.html'.</p>
-      <p>You can change the service name by editing the file '/app/config.js'.</p>
-
-			<h2 class="heading-medium">Examples and documentation</h2>
-
-			<ul class="list list-bullet">
-				<li><a href="/docs/tutorials-and-examples">Example pages and documentation</a></li>
-				<li><a href="https://github.com/alphagov/govuk_prototype_kit">GitHub</a></li>
-			</ul>
 
       <h2 class="heading-medium">Other resources</h2>
 
@@ -53,6 +41,17 @@
 						Government Digital Service Design Principles
 					</a>
 				</li>
+				<li>
+					<a href="http://dwp-elements.herokuapp.com/">
+						DWP elements guide
+					</a>
+				</li>
+				<li>
+					<a href="https://dwp-patterns.herokuapp.com/">
+						DWP design patterns
+					</a>
+				</li>
+
 			</ul>
 
     </div>
