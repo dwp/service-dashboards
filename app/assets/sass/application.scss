@@ -88,4 +88,13 @@ html {
 .decrease:after {
   content: "\25BC";
   color: #6F777B;
+}  
+
+.widget-label {
+  float: left;
 }
+
+.widget-data {
+  float: right;
+}
+
