@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block body_classes %}dashboard{% endblock %}
+
+{% block page_title %}
+  Device usage
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+	
+	<div class="grid-row">
+		<div class="column-one-third">
+	        <h2 class="heading-medium heading-tile">Device usage</h2>
+	        <div id="device-usage" class="stats">
+		        <p><span class="heading-small">This week&colon;</span>Mobile, Desktop, Tablet</p><p><span class="heading-small">Public Beta&colon; </span> Mobile, Desktop, Tablet <span class="increase"></span>% % %</p>
+		    </div>
+	    </div>
+	</div>  
+
+</main>
+
+{% endblock %}
