@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block body_classes %}dashboard{% endblock %}
+
+{% block page_title %}
+  Active users
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+	
+	<dvi class="grid-row">
+		<div class="column-one-third">
+	        <h2 class="heading-medium heading-tile">Exit page&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp; &percnt; of exits</h2>
+	        <div id="exit-page" class="stats">
+	        <p class="widget-label">Personal details</p> 
+	        <p class="widget-data"> 31.67&percnt;</p>
+	        <p class="widget-label">Contact details</p> 
+	        <p class="widget-data"> 11.89&percnt;</p><
+	        <p class="widget-label">Declaration</p>
+	        <p class="widget-data"> 10.25&percnt;</p>
+	        <p class="widget-label">Loan ammount</p>
+	        <p class="widget-data"> 9.02&percnt;</p>
+	        <p class="widget-label">Partner details</p>
+	        <p class="widget-data">7.05&percnt;</p> 
+	      </div>
+	    </div>  
+
+</main>
+
+{% endblock %}
