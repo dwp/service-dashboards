@@ -33,7 +33,7 @@ $path: "/public/images/";
 Dashboards
 ****************************/
 html {
-  background: #fff;
+  background: #FFFF;
 }
 
 .dashboard #content {
@@ -59,7 +59,7 @@ html {
 }
 
 .dashboard-date {
-  float: left;
+  float: l;
   margin: 42px 0 0 14px;
 }
 
@@ -97,4 +97,15 @@ html {
 .widget-data {
   float: right;
 }
+
+.widget-link {
+  text-decoration: none;
+  link color: #000000; 
+  visited color: #000000; 
+  hover color: #2b8cc4; 
+  active color: #000000;
+}
+
+
+
 
