@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block body_classes %}dashboard{% endblock %}
+
+{% block page_title %}
+  Active users
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+	<h1 class="heading-large">Active users:</h1>
+
+	<div class="grid-row">
+		<div class="column-full">
+        <h2 class="heading-medium heading-tile">Active users</h2>
+        <div id="completions" class="stats">
+        	<h3 class="heading-xlarge"><span class="heading-small">Online now&colon;</span> 35</h3> </div>
+      	</div>
+    </div>
+</main>
+
+{% endblock %}
